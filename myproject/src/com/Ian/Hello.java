@@ -1,8 +1,14 @@
 package com.Ian;
 
+import java.util.Scanner;
+
 public class Hello {
 
 	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		String nobody=scanner.nextLine();
+		System.out.println(nobody);
+		
 		Student stu = new Student("Ian", 70, 90);
 		stu.print();
 		System.out.println(stu.a + "\t" + stu.m + "\t" + stu.e + "\t" + (stu.m + stu.e) / 2);
