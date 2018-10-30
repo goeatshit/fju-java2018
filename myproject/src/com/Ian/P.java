@@ -6,14 +6,13 @@ import java.util.Scanner;
 public class P {
 
 	public static void main(String[] args) {
-		int w = 50;
-
-		while (w > w + 1) {
-			System.out.println("YOU¡@GOT A VIRIUS!!!");
-		}
-		if (w < w + 1) {
-			System.out.println("bullshit");
+		float w = 20.25f;
+		if (w>w+1) {
+			System.out.println("OPPS");
 		} else {
+			while (w==w+1) {
+				System.out.println("·MÄøªº¤HÃþ!!!");
+			}
 
 			Scanner s = new Scanner(System.in);
 			System.out.println("Please guess a number:");
@@ -23,6 +22,8 @@ public class P {
 			int secret = r.nextInt(100) + 1;
 			System.out.println(secret);
 			System.out.println("You were off by:");
+			System.out.println(Math.abs(number - secret));
+
 		}
 	}
 }
