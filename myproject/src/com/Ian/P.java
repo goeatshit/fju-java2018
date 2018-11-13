@@ -18,7 +18,7 @@ public class P {
 			System.out.println("Please guess a number:");
 			int number = s.nextInt();
 			System.out.println("The number I was thinking is:");
-			Random r = new Random();
+			Random r = new Random(); 
 			int secret = r.nextInt(100) + 1;
 			System.out.println(secret);
 			System.out.println("You were off by:");

@@ -5,6 +5,11 @@ import java.util.Scanner;
 public class Hello {
 
 	public static void main(String[] args) {
+        int i;
+		for(i=10;i==i;i=i++){
+			System.out.println(i);
+		}
+		
 		Scanner scanner=new Scanner(System.in);
 		String nobody=scanner.nextLine();
 		System.out.println(nobody);
