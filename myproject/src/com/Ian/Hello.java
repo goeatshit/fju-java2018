@@ -5,27 +5,26 @@ import java.util.Scanner;
 public class Hello {
 
 	public static void main(String[] args) {
-        int i;
-		for(i=10;i==i;i=i++){
-			System.out.println(i);
-		}
-		
-		Scanner scanner=new Scanner(System.in);
-		String nobody=scanner.nextLine();
-		System.out.println(nobody);
-		
-		Student stu = new Student("Ian", 70, 90);
-		stu.print();
-		System.out.println(stu.a + "\t" + stu.m + "\t" + stu.e + "\t" + (stu.m + stu.e) / 2);
-		System.out.println(50 <= 30);
-		String r1 = "pig";
-		String r2 = "pig";
-		System.out.println(r1 == r2);
 
-		String w1 = new String("orz");
-		String w2 = new String("orz");
-		System.out.println(w1.equals(w2));
-		System.out.println(w1 == w2);
+		Student stu = new Student("Ian", 70, 0);
+		stu.print();
+		
+
+		/*
+		 * int i; for(i=10;i==i;i=i++){ System.out.println(i); }
+		 */
+
+		// Scanner scanner=new Scanner(System.in);
+		// String nobody=scanner.nextLine();
+		// System.out.println(nobody);
+
+		/*
+		 * System.out.println(50 <= 30); String r1 = "pig"; String r2 = "pig";
+		 * System.out.println(r1 == r2);
+		 * 
+		 * String w1 = new String("orz"); String w2 = new String("orz");
+		 * System.out.println(w1.equals(w2)); System.out.println(w1 == w2);
+		 */
 
 		// int age=-100;
 		// age=-200;

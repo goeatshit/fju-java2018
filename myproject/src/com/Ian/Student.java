@@ -18,6 +18,53 @@ public class Student {
 	}
 
 	public void print() {
+		System.out.print(a + "\t" + m + "\t" + e + "\t" + highest() + "\t" + average() + "\t" + grade() + "\t");
+
+		if (average() < 60) {
+			System.out.print("FAILED");
+		} else {
+			System.out.print("PASS");
+
+		}
+
+	}
+
+	public char grade() {
+		char grade = 'F';
+		switch (average() / 10) {
+		case 10:
+		case 9:
+			grade = 'A';
+			break;
+		case 8:
+			grade = 'B';
+			break;
+			
+		case 7:
+			grade = 'C';
+			break;
+		case 6:
+			grade = 'D';
+			break;
+		default:
+			grade = 'F';
+
+		}
+		return grade;
+
+	}
+
+	public int highest() {
+		if (m > e) {
+			return m;
+		} else {
+			return e;
+		}
+
+	}
+
+	public int average() {
+		return (m + e) / 2;
 
 	}
 
