@@ -27,6 +27,8 @@ public class P {
 		}
 	}
 }
+
+
 /*
  * float n=19.54329f; String name="Ian";
  * System.out.printf("Hi,%s\n"+"your age:%.4f",name,n);
