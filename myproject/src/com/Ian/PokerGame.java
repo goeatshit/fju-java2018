@@ -7,13 +7,13 @@ public class PokerGame {
 	public static void main(String[] args) {
 		int[] n = new int[52];
 		Card[] c = new Card[10];
-		c[0] = new Card(51);
-		System.out.println(n[0]);
-		System.out.println(c[0].get());
+		//c[0] = new Card(51);
+		//System.out.println(n[0]);
+		//System.out.println(c[0].get());
 		// Card[] cards = new Card[52];
 
 		Poker poker = new Poker();
-		poker.shuffle();
+		//poker.shuffle();
 		poker.print();
 	}
 
